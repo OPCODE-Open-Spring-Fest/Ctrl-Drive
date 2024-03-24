@@ -22,23 +22,24 @@ Ctrl-Drive is an open-source project aimed at building a robust, competition-rea
 - **Fabrication:** Utilize 3D Printing (Creality Slicer) for fabricating parts.
 
 ## File Structure
+
 ```
 📁 bom             # Bill of Materials (parts lists, spreadsheets)
 📁 code            # Firmware for ESP-32 and remote
-📁 design          
+📁 design
     📁 electrical  # circuit board design
-    📁 mechanical  # CAD models for chassis and parts 
+    📁 mechanical  # CAD models for chassis and parts
 📁 docs            # Documentation, guides, assembly instructions
 📁 media           # Photos and videos etc
 ```
+
 ## Contributing
 
 **Interested in Contributing?**
 
-Great! Head over to [guide](docs\contributing.md) to learn how you can get involved in the Ctrl-Drive project. We welcome your ideas, feedback, and contributions.
+Great! Head over to [guide](docs/contributing.md) to learn how you can get involved in the Ctrl-Drive project. We welcome your ideas, feedback, and contributions.
 
 Let's collaborate to make Ctrl-Drive even better!
-
 
 ## Learning Resources
 
