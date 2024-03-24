@@ -7,30 +7,28 @@
 ### Writing Commit Messages
 
 - **Clear Subject Line**: Start the commit message with a clear and concise description of the change. It should be no more than 50 characters, start with a capital letter, and be in imperative mood.
-
-  - > ```bash
-    > feat: Add function to calculate average
-    > ```
-
+  ```bash
+  feat: Add function to calculate average
+  ```
 - **Separate Subject from Body**: If further explanation is needed, include it in the body of the commit message, following a blank line after the subject line.
 
 - **Explain the Change**: The body of the commit message should explain why the change was needed and how it was implemented. Keep it wrapped to 72 characters and written in present tense.
 
-  - > ```bash
-    > fix: Resolve issue with login form not submitting on Safari
-    >
-    > This commit fixes a bug where the login form was not submitting on Safari browsers. The issue was caused by an outdated event listener binding, which has been updated to the correct syntax.
-    > ```
+  ```bash
+  fix: Resolve issue with login form not submitting on Safari
+
+  This commit fixes a bug where the login form was not submitting on Safari browsers. The issue was caused by an outdated event listener binding, which has been updated to the correct syntax.
+  ```
 
 - **Avoid "How" Details**: Use the commit message to explain what changes were made and why, not how they were made. Well-written code should be self-explanatory.
 
 - **Reference Issues or Pull Requests**: If the commit is related to an issue or a pull request, include the reference in the commit message. This can be done in the body of the message or at the end.
 
-  - > ```bash
-    > feat: Add user authentication feature
-    >
-    > Closes #123
-    > ```
+  ```bash
+  feat: Add user authentication feature
+
+  Closes #123
+  ```
 
 - **Avoid Unnecessary Punctuation**: Do not end the subject line with a period.
 
